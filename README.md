@@ -1,3 +1,5 @@
-# Welcome To NgPokedex ![image](<https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/770px-Pok%C3%A9_Ball_icon.svg.png>)
+# Welcome To NgPokedex 🐣
+
+![image](<https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white>)
 
 ## Angular Project in Build 🚧
