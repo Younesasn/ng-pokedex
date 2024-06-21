@@ -1,0 +1,11 @@
+<section class="max-w-screen-xl xl:px-6 px-3 m-auto">
+    <div class="flex justify-center items-center">
+        <h1 class="text-5xl">Pokédex</h1>
+    </div>
+    <div class="grid grid-cols-3 gap-5">
+        <div class="space-y-5" *ngFor="let pokemon of pokemons">
+            <app-card [name]="pokemon.name.fr" [poke_id]="pokemon.pokedex_id" [image]="pokemon.sprites.regular" />
+        </div>
+        <!-- [hp]="pokemon.stats.hp"  [category]="pokemon.category" [talents]="pokemon.talents" [types]="pokemon.types" -->
+    </div>
+</section>
