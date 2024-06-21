@@ -19,7 +19,6 @@ export class DetailComponent implements OnInit {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.pokemonsService.getPokemonById(id).subscribe((data: Pokemon) => {
       this.pokemon = data;
-      console.log(this.pokemon)
     });
   }
 }
