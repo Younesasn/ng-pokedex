@@ -1,8 +1,8 @@
+import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { Pokemon } from '../../pokemon.interface';
 import { PokemonsService } from '../../pokemons.service';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-detail',
